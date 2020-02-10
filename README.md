@@ -7,6 +7,8 @@ linux-rootfs https://www15.zippyshare.com/v/Qhyy36pv/file.html tutorial https://
 
 sudo mkfs.ext2 /dev/sdb7 спросит если то жмем y думаю по логике прокатит и sudo mkfs.ext2 /dev/sdb7 -y команда
 
+sudo mount /dev/sdb7 /mnt
+
 sudo tar -xzvf linux-rootfs.tar.gz -C /mnt
 
 sudo umount /dev/sdb7
